@@ -2,13 +2,25 @@
   "name": "jb-datepicker",
   "version": "1.0.0",
   "description": "Pure Javascript Datepicker",
-  "main": "index.js",
+  "main": "dist/jb-datepicker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["datepicker"],
+  "keywords": [
+    "datepicker",
+    "hebees",
+    "retina"
+  ],
   "author": {
-    "name" :"gauryan"
+    "name": "gauryan"
   },
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauryan/jb-datepicker.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
